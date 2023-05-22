@@ -12,7 +12,7 @@
     }
 
     public function getMovieInfo() {
-      return 'Il film ' . $this->title . ' è stato diretto da ' . $this->director;
+      return 'Il film ' . '<strong>' . $this->title . '</strong>' . ' è stato diretto da ' . '<strong>' .$this->director . '</strong>' . '.';
     }
   }
 ?>
