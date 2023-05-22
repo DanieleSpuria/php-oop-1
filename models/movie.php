@@ -10,5 +10,9 @@
       $this->director = $_director;
       $this->genre = $_genre;
     }
+
+    public function getMovieInfo() {
+      return 'Il film ' . $this->title . ' è stato diretto da ' . $this->director;
+    }
   }
 ?>
